@@ -1,0 +1,4 @@
+The user can firstly load an image into the GUI by clicking open image. 
+Once the image is loaded, the user can then apply a filter in the selection box at the bottom. The user will have to name the resulting image.
+The user can add a layer on top of their current layer at any time.
+Lastly, the user can save the project by clicking save, then choosing the path and name of the project. Default is in the res/ folder.

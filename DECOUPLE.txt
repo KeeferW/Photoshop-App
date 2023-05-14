@@ -1,0 +1,14 @@
+* Controller
+    * Interface CollageController - Represents a controller for the user to run and interact with the Collage operations. Contains the run method that prompts the user to enter commands and starts accepting input.
+    * Interface CollageOperations - Contains all possible options connected to buttons which correspond to all possibilities to manipulate and display an image.
+    * Interface NewGuiController - Creates an interface for all of the options for buttons that are needed for the program.
+* Model
+    * Interface CollageViewModel - Represents an interface for viewing the model, which enables an Image to be retrieved and viewed for the model.
+    * Interface Image - Representing the image, the very things being represented, displayed, and filtered in our program.
+    * Interface Pixel - Provides the baseline for representing an image: as a Color with various filtration options, which is used to represent, display, and view all images in the program.
+* View
+    * Interface CollageView - Enables a skeleton for the view and messages to be displayed to the GUI.
+    * Class CollageViewImpl - Implementation of CollageView.
+    * Interface GuiView - Creates the User Interface for the collage program, and helps to display, load, and update images with various filters, working with button listeners to do so.
+    * Class JavaSwingView - An implementation of the GuiView Interface.
+    * Interface ProjectGuiView - Enables rendering and refreshing of the view for the program.
